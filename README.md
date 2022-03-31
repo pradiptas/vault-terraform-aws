@@ -2,7 +2,6 @@
 
 This repo does the following:
 - Pipeline to spin up an EC2 Instance with Just-in-time AWS Credentials
-- HashiCorp Vault running at http://3.220.169.50:8200
 - An IAM User will be created on the fly with TTL = 5 min
 - That IAM User will have a policy attached (runtime) to create EC2 instance only
 - Uses Hashicorp's Vault Terraform Provider https://registry.terraform.io/providers/hashicorp/vault/latest/docs
