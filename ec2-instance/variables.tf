@@ -1,8 +1,8 @@
 variable "vault_addr" {
-  default="http://3.220.169.50:8200"
+  default="<VAULT URL>"
 }
 variable "vault_token" {
-  default = "s.QhneFEWXNM6cuo5JFOgnqfX6"
+  default = "<VAULT TOKEN>"
 }
 variable "instance_ami" {
   description = "AMI for aws EC2 instance"
